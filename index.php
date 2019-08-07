@@ -74,7 +74,7 @@ class Request
 date_default_timezone_set("Asia/Bangkok");
 class Database
 {   
-    private $host = "139.59.225.151";
+    private $host = "";
     private $db_name = "admin_channel";
     private $username = "admin_channel";
     private $password = "eMfbrKr07i";
