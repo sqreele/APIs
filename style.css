@@ -1,0 +1,245 @@
+
+#channel .mainrow-head{
+background:linear-gradient(to bottom, #e12d2c 1%, #dd2d2d 50%, #b00000 51%, #b40001 100%);
+font-size: 14px;
+font-weight: bold;
+}
+
+#channel .mainrow{
+padding: 8px 0px;
+font-size:14px;
+background:linear-gradient(to bottom, #464646 0%,#262626 5%,#262626 5%,#262626 5%,#050505 100%);
+}
+
+#channel .mainrow:hover{
+background: #383838;
+}
+
+#channel .divTable{
+display: table;
+width: 100%;
+color:#ffffff;
+border-bottom:1px solid #ECC805;
+}
+#channel .divTableRow {
+display: table-row;
+}
+#channel .divTableHeading {
+background-color: #EEE;
+display: table-header-group;
+}
+#channel .divTableCell, .divTableHead {
+/*border: 1px solid #999999;*/
+display: table-cell;
+padding: 3px 2px;
+}
+#channel .divTableHeading {
+background-color: #EEE;
+display: table-header-group;
+font-weight: bold;
+}
+#channel .divTableFoot {
+background-color: #EEE;
+display: table-footer-group;
+font-weight: bold;
+}
+#channel .divTableBody {
+display: table-row-group;
+}
+
+#channel .link-icon{
+text-align:left;
+width:6%;
+vertical-align: middle;
+}
+
+#channel .team1{
+text-align:right;
+width:20%;
+vertical-align: middle;
+}
+
+#channel .team2{
+text-align:left;
+width:20%;
+vertical-align: middle;
+}
+#channel .date{
+vertical-align: middle;
+width:12%;
+text-align:right;
+}
+#channel .sp_date{
+color:yellow;
+padding:3px;
+}
+#channel .time {
+text-align:center;
+width:6%;
+vertical-align: middle;
+}
+#channel .title {
+text-align:left;
+color:#F8C900;
+width:16%;
+vertical-align: middle;
+}
+
+#channel .sp_time{
+background:#F8C900;
+color:#000000;
+padding:3px;
+border-radius:3px;
+}
+
+#channel .logo-team img{
+width:25px;
+height:25px;
+display:inline;
+vertical-align: middle;
+}
+
+@media screen and (max-width:602px){
+#channel .logo-team img
+{
+width:20px;
+height:20px;
+}
+}
+@media screen and (max-width:602px){
+#channel .sp_time
+{
+font-size:10px;
+}
+}
+
+@media screen and (max-width:769px){
+#channel .sp_time
+{
+font-size:10px;
+}
+}
+
+@media screen and (max-width:769px){
+#channel .logo-team img
+{
+width:20px;
+height:20px;
+}
+}
+
+@media screen and (max-width:602px){
+#channel .link-icon
+{
+width:8%;
+}
+}
+
+
+@media screen and (max-width:602px){
+#channel .mainrow
+{
+font-size:12px;
+}
+}
+
+@media screen and (max-width:769px){
+#channel .date
+{
+width:24%;
+}
+}
+
+@media screen and (max-width:769px){
+#channel .team1
+{
+width:25%;
+}
+}
+
+@media screen and (max-width:769px){
+#channel .team2
+{
+width:25%;
+}
+}
+
+@media screen and (max-width:769px){
+#channel .time
+{
+width:5%;
+}
+}
+
+@media screen and (max-width:769px){
+#channel .link-icon img
+{
+width:35px !important;
+max-width: none;
+}
+}
+
+@media screen and (max-width:967px){
+#channel .time
+{
+width:8%;
+}
+}
+
+@media screen and (max-width:769px){
+#channel .fa-clock-o
+{
+display: none !important;
+}
+}
+
+@media screen and (max-width:602px){
+#channel .time
+{
+width:1%;
+font-size:10;
+}
+}
+
+@media screen and (max-width:602px){
+#channel .pc-only
+{
+display: none;
+}
+}
+
+@media screen and (min-width:602px){
+#channel .mobile-only
+{
+display: none;
+width:100%;
+}
+}
+
+@media screen and (max-width:602px){
+#channel .fa-clock-o
+{
+display: none !important;
+}
+}
+#channel .panel{
+margin-bottom:0px;
+}
+.accordion {
+cursor: pointer;
+border: none;
+outline: none;
+transition: 0.4s;
+}
+.panel img{
+margin: 0 3px;
+display:inline;
+width:50px;
+height:50px;
+}
+.panel {
+display: none;
+background:#8C8C8C;
+padding:5px 0px;
+text-align:center !important;
+}
